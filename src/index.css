@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: rgb(240,253,240);
+}
+html::-webkit-scrollbar{
+  display:none;
+}
+html{
+  scrollbar-width: none;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+  color: deepskyblue !important;
+}
+
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+  background: deepskyblue !important;
+}
