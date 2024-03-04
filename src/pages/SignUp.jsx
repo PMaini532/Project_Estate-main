@@ -37,7 +37,7 @@ export default function SignUp() {
         auth,
         email,
         password
-      );
+      ); 
 
       updateProfile(auth.currentUser, {
         displayName: name,
